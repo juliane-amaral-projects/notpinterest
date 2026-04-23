@@ -33,8 +33,8 @@ class FormCriarConta(FlaskForm):
     # Função criada devido ao campo "username" da classe "Usuario", em "models.py", ser definido como valor único (unique=True)
 #    def validate_username(self, username):
 #        usuario = Usuario.query.filter_by(username=username.data).first()
-#        if usuario:
-#            return ValidationError("Este nome de usuário já está em uso. Escolha outro para continuar.")
+#         if usuario:
+#            raise ValidationError("Este nome de usuário já está em uso. Escolha outro para continuar.")
 
 # Permite com que o usuário envie uma foto
 class FormFoto(FlaskForm):

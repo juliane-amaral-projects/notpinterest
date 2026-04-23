@@ -6,6 +6,8 @@ from flask_bcrypt import Bcrypt
 # Criação do app (aplicação), que é o site
 app = Flask(__name__)
 
+#link
+
 # Configurar variável do APP
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///comunidade.db'
 app.config["SECRET_KEY"] = "e413aabd15f9e7cdd9afc8a234d021d6"
