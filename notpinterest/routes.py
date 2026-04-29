@@ -1,10 +1,10 @@
 ### Criar as rotas do site (os links) ###
 
 from flask import render_template, url_for, redirect
-from fakepinterest import app, database, bcrypt
-from fakepinterest.models import Usuario, Foto
+from notpinterest import app, database, bcrypt
+from notpinterest.models import Usuario, Foto
 from flask_login import login_required, login_user, logout_user, current_user
-from fakepinterest.forms import FormLogin, FormCriarConta, FormFoto
+from notpinterest.forms import FormLogin, FormCriarConta, FormFoto
 import os
 from werkzeug.utils import secure_filename
 

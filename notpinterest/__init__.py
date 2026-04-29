@@ -19,4 +19,4 @@ bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)
 login_manager.login_view = "homepage" # nome da função em "routes.py"
 
-from fakepinterest import routes
+from notpinterest import routes

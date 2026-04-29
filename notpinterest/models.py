@@ -1,6 +1,6 @@
 ### Criar a estrutura do banco de dados ###
 
-from fakepinterest import database, login_manager
+from notpinterest import database, login_manager
 from datetime import datetime
 from flask_login import UserMixin # O "UserMixin" diz qual é a classe que vai gerenciar a estrutura de logins
 
